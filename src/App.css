@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+.grid {
+  margin-top: 20px;
+}
+
+.square {
+  background: rgb(133, 195, 195);
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+}
+
+.square + .square {
+  margin-left: 4px;
+}
+
+.selected {
+  background: rgb(215, 113, 129);
+}
