@@ -21,13 +21,13 @@ To run the app:
 - No CSS changes should be necessary--just JS/React stuff.
   - (`classNames` is a lib that makes it easy to conditionally apply CSS classes without a lot of additional code; you can completely disregard this when you see it in a few components.)
 
-## TODO
+## What to do
 
 - Play with the app with the default settings.
-  - Notice that the "hightlighting" performance is nice and tight with a small number of squares.
+  - Notice that the "highlighting" performance is nice and tight with a small number of squares.
 - Go into `src/settings.js`, and toggle the default export to the `large` version.
   - (Just uncomment `export default large` and comment out `export default small`)
-- Save/refresh, and now notice that the performance in hightlighting squares is pretty laggy.
+- Save/refresh, and now notice that the performance in highlighting squares is pretty laggy.
 - Let's work together to troubleshoot this and figure out how we can get good performance, even at the larger size.
   - Bear in mind, there is not necessarily only one "correct" solution to this.
   - The most important thing here is not to finish implementing a full solution, but more just to work together in diagnosing the issue and brainstorming potential fixes.
